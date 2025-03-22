@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Module 7: Maximizing Returns - Learn strategies to boost ROI, add value to properties, and plan exit strategies">
+    <meta name="keywords" content="real estate investing, ROI, value-add strategies, exit strategies, investment returns">
+    <title>Module 7: Maximizing Returns</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Real Estate Investing Logo" id="logo-placeholder">
+                <h1>Mastering Real Estate Investing</h1>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <span class="sr-only">Menu</span>
+                </button>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="forum.html">Community</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="container mt-4 mb-4">
+            <div class="dashboard">
+                <div class="dashboard-sidebar">
+                    <h3>Course Navigation</h3>
+                    <ul class="dashboard-nav">
+                        <li class="dashboard-nav-item"><a href="dashboard.html">Dashboard</a></li>
+                        <li class="dashboard-nav-item"><a href="module1.html">Module 1: Introduction</a></li>
+                        <li class="dashboard-nav-item"><a href="module2.html">Module 2: Market Research</a></li>
+                        <li class="dashboard-nav-item"><a href="module3.html">Module 3: Acquisition</a></li>
+                        <li class="dashboard-nav-item"><a href="module4.html">Module 4: Financing</a></li>
+                        <li class="dashboard-nav-item"><a href="module5.html">Module 5: Tax Benefits</a></li>
+                        <li class="dashboard-nav-item"><a href="module6.html">Module 6: Property Management</a></li>
+                        <li class="dashboard-nav-item active"><a href="module7.html">Module 7: Maximizing Returns</a></li>
+                        <li class="dashboard-nav-item"><a href="module8.html">Module 8: Portfolio Building</a></li>
+                        <li class="dashboard-nav-item"><a href="module9.html">Module 9: Capstone Project</a></li>
+                        <li class="dashboard-nav-item"><a href="forum.html">Community Forum</a></li>
+                        <li class="dashboard-nav-item"><a href="resources.html">Resources</a></li>
+                        <li class="dashboard-nav-item"><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                
+                <div class="dashboard-content">
+                    <h2>Module 7: Maximizing Returns</h2>
+                    
+                    <div class="progress-container mb-3">
+                        <div class="progress-bar" style="width: 0%;"></div>
+                    </div>
+                    
+                    <div class="module-navigation mb-3">
+                        <div>
+                            <a href="module6.html" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Previous Module</a>
+                        </div>
+                        <span>Module 7 of 9</span>
+                        <div>
+                            <button class="btn btn-outline complete-module" data-module-id="module7">Mark as Complete</button>
+                            <a href="module8.html" class="btn btn-primary">Next Module <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-3">
+                        <h3>Learning Objectives</h3>
+                        <ul>
+                            <li>Understand key metrics for measuring real estate investment performance</li>
+                            <li>Learn value-add strategies to increase property income and appreciation</li>
+                            <li>Develop effective exit strategies for different market conditions</li>
+                            <li>Master techniques for maximizing cash flow and equity growth</li>
+                            <li>Use the investment return calculator to analyze and optimize returns</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="module-section mb-4">
+                        <h3>7.1 Understanding Investment Return Metrics</h3>
+                        <p>To maximize returns, you must first understand how to measure them. These key metrics will help you evaluate investment performance and make data-driven decisions.</p>
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card mb-3">
+                                    <h4>Cash Flow Metrics</h4>
+                                    <p>These metrics focus on the ongoing income generated by your investment:</p>
+                                    
+                                    <h5>Cash-on-Cash Return (CoC)</h5>
+                                    <p>Measures the annual cash flow relative to the cash invested.</p>
+                                    <div class="formula">
+                                        <p>CoC = (Annual Cash Flow ÷ Total Cash Invested) × 100%</p>
+                                    </div>
+                                    <ul>
+                                        <li><strong>Example:</strong> $5,000 annual cash flow on $50,000 investment = 10% CoC</li>
+                                        <li><strong>Target:</strong> 8-12% is generally considered good</li>
+                                        <li><strong>Advantage:</strong> Simple calculation that focuses on actual cash returns</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for appreciation or tax benefits</li>
+                                    </ul>
+                                    
+                                    <h5>Net Operating Income (NOI)</h5>
+                                    <p>Total income minus operating expenses (excluding debt service).</p>
+                                    <div class="formula">
+                                        <p>NOI = Gross Income - Operating Expenses</p>
+                                    </div>
+                                    <ul>
+                                        <li><strong>Example:</strong> $24,000 annual income - $10,000 expenses = $14,000 NOI</li>
+                                        <li><strong>Importance:</strong> Key metric for property valuation</li>
+                                        <li><strong>Advantage:</strong> Independent of financing structure</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for capital expenditures</li>
+                                    </ul>
+                                    
+                                    <h5>Capitalization Rate (Cap Rate)</h5>
+                                    <p>The ratio of NOI to property value, representing the unlevered return.</p>
+                                    <div class="formula">
+                                        <p>Cap Rate = (NOI ÷ Property Value) × 100%</p>
+                                    </div>
+                                    <ul>
+                                        <li><strong>Example:</strong> $14,000 NOI ÷ $200,000 property value = 7% cap rate</li>
+                                        <li><strong>Market Variations:</strong> Typically 4-10% depending on location and property type</li>
+                                        <li><strong>Advantage:</strong> Allows comparison between properties regardless of financing</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for future growth potential</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3">
+                                    <h4>Return on Investment Metrics</h4>
+                                    <p>These metrics evaluate the total return including both income and appreciation:</p>
+                                    
+                                    <h5>Return on Investment (ROI)</h5>
+                                    <p>The total return relative to the total investment.</p>
+                                    <div class="formula">
+                                        <p>ROI = [(Gain from Investment - Cost of Investment) ÷ Cost of Investment] × 100%</p>
+                                    </div>
+                                    <ul>
+                                        <li><strong>Example:</strong> $30,000 gain on $100,000 investment = 30% ROI</li>
+                                        <li><strong>Timeframe:</strong> Usually calculated annually or for the entire holding period</li>
+                                        <li><strong>Advantage:</strong> Comprehensive view of total returns</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for the time value of money</li>
+                                    </ul>
+                                    
+                                    <h5>Internal Rate of Return (IRR)</h5>
+                                    <p>The discount rate that makes the net present value of all cash flows equal to zero.</p>
+                                    <ul>
+                                        <li><strong>Complexity:</strong> Requires financial calculator or spreadsheet</li>
+                                        <li><strong>Target:</strong> 15-20% is generally considered excellent</li>
+                                        <li><strong>Advantage:</strong> Accounts for the time value of money</li>
+                                        <li><strong>Limitation:</strong> Complex calculation and sensitive to timing assumptions</li>
+                                    </ul>
+                                    
+                                    <h5>Gross Rent Multiplier (GRM)</h5>
+                                    <p>The ratio of property price to gross annual rental income.</p>
+                                    <div class="formula">
+                                        <p>GRM = Property Price ÷ Gross Annual Rental Income</p>
+                                    </div>
+                                    <ul>
+                                        <li><strong>Example:</strong> $200,000 property ÷ $24,000 annual rent = 8.33 GRM</li>
+                                        <li><strong>Target:</strong> Lower is better; varies by market</li>
+                                        <li><strong>Advantage:</strong> Quick screening tool for comparing properties</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for operating expenses</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card bg-light p-3 mb-3">
+                            <h4>The 1% Rule and Other Rules of Thumb</h4>
+                            <p>While detailed analysis is essential, these quick rules can help with initial property screening:</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>The 1% Rule</h5>
+                                    <p>Monthly rent should be at least 1% of the purchase price.</p>
+                                    <ul>
+                                        <li><strong>Example:</strong> $100,000 property should rent for at least $1,000/month</li>
+                                        <li><strong>Application:</strong> Quick filter for cash flow potential</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for expenses or market variations</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h5>The 50% Rule</h5>
+                                    <p>Operating expenses typically equal about 50% of gross income.</p>
+                                    <ul>
+                                        <li><strong>Example:</strong> $24,000 annual income would have approximately $12,000 in expenses</li>
+                                        <li><strong>Application:</strong> Quick estimate of NOI</li>
+                                        <li><strong>Limitation:</strong> Actual expenses vary significantly by property</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>The 70% Rule (for Fix and Flip)</h5>
+                                    <p>Maximum purchase price should be 70% of After Repair Value (ARV) minus repair costs.</p>
+                                    <ul>
+                                        <li><strong>Example:</strong> For a property with $200,000 ARV needing $30,000 in repairs, maximum purchase price would be $110,000 (70% of $200,000 - $30,000)</li>
+                                        <li><strong>Application:</strong> Ensures profit margin for fix and flip</li>
+                                        <li><strong>Limitation:</strong> Doesn't account for holding costs or market risk</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h5>The 2% Rule</h5>
+                                    <p>A more aggressive version of the 1% rule, suggesting monthly rent should be 2% of purchase price.</p>
+                                    <ul>
+                                        <li><strong>Example:</strong> $100,000 property should rent for $2,000/month</li>
+                                        <li><strong>Application:</strong> Identifies exceptional cash flow opportunities</li>
+                                        <li><strong>Limitation:</strong> Rarely achievable in most markets today</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="module-section mb-4">
+                        <h3>7.2 Value-Add Strategies</h3>
+                        <p>Value-add strategies allow investors to increase property value and returns beyond what the general market appreciation provides. These strategies can be applied to both residential and commercial properties.</p>
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card mb-3">
+                                    <h4>Physical Improvements</h4>
+                                    <p>Strategic renovations and upgrades that increase property value and rental income:</p>
+                                    
+                                    <h5>High-ROI Residential Improvements</h5>
+                                    <ul>
+                                        <li><strong>Kitchen Updates:</strong> 70-80% ROI</li>
+                                        <ul>
+                                            <li>New appliances</li>
+                                            <li>Cabinet refacing or replacement</li>
+                                            <li>Countertop upgrades</li>
+                                            <li>Backsplash installation</li>
+                                        </ul>
+                                        <li><strong>Bathroom Renovations:</strong> 60-70% ROI</li>
+                                        <ul>
+                                            <li>New fixtures</li>
+                                            <li>Vanity replacement</li>
+                                            <li>Tile work</li>
+                                            <li>Shower/tub updates</li>
+                                        </ul>
+                                        <li><strong>Flooring Upgrades:</strong> 70-80% ROI</li>
+                                        <ul>
+                                            <li>Hardwood or engineered wood</li>
+                                            <li>Luxury vinyl plank</li>
+                                            <li>Tile in wet areas</li>
+                                        </ul>
+                                        <li><strong>Curb Appeal Enhancements:</strong> 75-85% ROI</li>
+                                        <ul>
+                                            <li>Landscaping improvements</li>
+                                            <li>Exterior painting</li>
+                                            <li>Front door replacement</li>
+                                            <li>Driveway resurfacing</li>
+                                        </ul>
+                                    </ul>
+                                    
+                                    <h5>Commercial Property Improvements</h5>
+                                    <ul>
+                                        <li><strong>Common Area Upgrades:</strong></li>
+                                        <ul>
+                                            <li>Lobby renovations</li>
+                                            <li>Hallway improvements</li>
+                                            <li>Restroom modernization</li>
+                                        </ul>
+                                        <li><strong>Energy Efficiency Upgrades:</strong></li>
+                                        <ul>
+                                            <li>LED lighting</li>
+                                            <li>HVAC system improvements</li>
+                                            <li>Window replacements</li>
+                                            <li>Insulation enhancements</li>
+                                        </ul>
+                                        <li><strong>Technology Improvements:</strong></li>
+                                        <ul>
+                                            <li>High-speed internet infrastructure</li>
+                                            <li>Smart building features</li>
+                                            <li>Security system upgrades</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3">
+                                    <h4>Operational Improvements</h4>
+                                    <p>Strategies that enhance property performance through better management:</p>
+                                    
+                                    <h5>Income Enhancement Strategies</h5>
+                                    <ul>
+                                        <li><strong>Rent Optimization:</strong></li>
+                                        <ul>
+                                            <li>Market-based rent adjustments</li>
+                                            <li>Strategic lease timing</li>
+                                            <li>Rent increase implementation</li>
+                                        </ul>
+                                        <li><strong>Additional Income Sources:</strong></li>
+                                        <ul>
+                                            <li>Laundry facilities</li>
+                                            <li>Storage rentals</li>
+                                            <li>Parking fees</li>
+                                            <li>Pet fees/deposits</li>
+                                            <li>Application fees</li>
+                                            <li>Late payment fees</li>
+                                            <li>Utility billbacks</li>
+                                        </ul>
+                                        <li><strong>Vacancy Reduction:</strong></li>
+                                        <ul>
+                                            <li>Improved marketing</li>
+                                            <li>Enhanced tenant screening</li>
+                                            <li>Renewal incentives</li>
+                                            <li>Proactive maintenance</li>
+                                        </ul>
+                                    </ul>
+                                    
+                                    <h5>Expense Reduction Strategies</h5>
+                                    <ul>
+                                        <li><strong>Utility Optimization:</strong></li>
+                                        <ul>
+                                            <li>Water-saving fixtures</li>
+                                            <li>Programmable thermostats</li>
+                                            <li>Energy-efficient appliances</li>
+                                            <li>Submetering implementation</li>
+                                        </ul>
+                                        <li><strong>Maintenance Efficiencies:</strong></li>
+                                        <ul>
+                                            <li>Preventative maintenance programs</li>
+                                            <li>Vendor contract renegotiation</li>
+                                            <li>In-house vs. outsourced analysis</li>
+                                        </ul>
+                                        <li><strong>Insurance and Tax Optimization:</strong></li>
+                                        <ul>
+                                            <li>Insurance policy review</li>
+                                            <li>Property tax assessment appeals</li>
+                                            <li>Bulk insurance policies for multiple properties</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card mb-3">
+                            <h4>Strategic Repositioning</h4>
+                            <p>Fundamental changes to a property's use, tenant mix, or market positioning:</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>Residential Repositioning</h5>
+                                    <ul>
+                                        <li><strong>Property Class Improvement:</strong></li>
+                                        <ul>
+                                            <li>C to B class upgrades</li>
+                                            <li>B to A class enhancements</li>
+                                        </ul>
+                                        <li><strong>Unit Reconfiguration:</strong></li>
+                                        <ul>
+                                            <li>Converting large units to multiple smaller units</li>
+                                            <li>Combining small units into larger premium units</li>
+                                            <li>Adding bedrooms within existing footprints</li>
+                                        </ul>
+                                        <li><strong>Conversion Projects:</strong></li>
+                                        <ul>
+                                            <li>Single-family to multi-family conversion</li>
+                                            <li>Apartment to condominium conversion</li>
+                                            <li>Adding accessory dwelling units (ADUs)</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h5>Commercial Repositioning</h5>
+                                    <ul>
+                                        <li><strong>Tenant Mix Optimization:</strong></li>
+                                        <ul>
+                                            <li>Attracting complementary businesses</li>
+                                            <li>Replacing underperforming tenants</li>
+                                            <li>Adding anchor tenants</li>
+                                        </ul>
+                                        <li><strong>Use Conversion:</strong></li>
+                                        <ul>
+                                            <li>Retail to mixed-use</li>
+                                            <li>Office to residential</li>
+                                            <li>Industrial to creative office</li>
+                                            <li>Warehouse to self-storage</li>
+                                        </ul>
+                                        <li><strong>Branding and Marketing:</strong></li>
+                                        <ul>
+                                            <li>Property name/identity change</li>
+                                            <li>Signage and wayfinding improvements</li>
+                                            <li>Target market repositioning</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card bg-light p-3 mb-3">
+                            <h4>Value-Add Case Studies</h4>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>Case Study 1: Multifamily Renovation</h5>
+                                    <p><strong>Property:</strong> 24-unit apartment complex, C-class, high vacancy</p>
+                                    <p><strong>Purchase Price:</strong> $960,000 ($40,000/unit)</p>
+                                    <p><strong>Value-Add Strategy:</strong></p>
+                                    <ul>
+                                        <li>$5,000/unit renovation ($120,000 total)</li>
+                                        <li>Exterior improvements and landscaping ($50,000)</li>
+                                        <li>New property management and marketing</li>
+                                    </ul>
+                                    <p><strong>Results:</strong></p>
+                                    <ul>
+                                        <li>Rents increased from $650 to $850/month</li>
+                                        <li>Vacancy reduced from 25% to 5%</li>
+                                        <li>NOI increased from $62,400 to $116,280</li>
+                                        <li>New valuation at 7% cap rate: $1,661,143</li>
+                                        <li>Equity gain: $531,143 (minus renovation costs of $170,000 = $361,143)</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h5>Case Study 2: Commercial Repositioning</h5>
+                                    <p><strong>Property:</strong> Outdated strip mall with 60% occupancy</p>
+                                    <p><strong>Purchase Price:</strong> $1.2 million</p>
+                                    <p><strong>Value-Add Strategy:</strong></p>
+                                    <ul>
+                                        <li>Façade renovation ($150,000)</li>
+                                        <li>Parking lot improvements ($75,000)</li>
+                                        <li>Tenant space buildouts ($200,000)</li>
+                                        <li>Rebranding and targeted marketing</li>
+                                    </ul>
+                                    <p><strong>Results:</strong></p>
+                                    <ul>
+                                        <li>Occupancy increased to 95%</li>
+                                        <li>Rental rates increased from $12 to $18 per square foot</li>
+                                        <li>NOI increased from $84,000 to $205,200</li>
+                                        <li>New valuation at 8% cap rate: $2,565,000</li>
+                                        <li>Equity gain: $1,365,000 (minus renovation costs of $425,000 = $940,000)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="module-section mb-4">
+                        <h3>7.3 Exit Strategies</h3>
+                        <p>Planning your exit strategy before you invest is crucial for maximizing returns. Different strategies suit different investment goals and market conditions.</p>
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card mb-3">
+                                    <h4>Traditional Exit Strategies</h4>
+                                    
+                                    <h5>Sell and Cash Out</h5>
+                                    <p>The most straightforward exit strategy: selling the property for a profit.</p>
+                                    <ul>
+                                        <li><strong>Best When:</strong></li>
+                                        <ul>
+                                            <li>Market values are high</li>
+                                            <li>Property has appreciated significantly</li>
+                                            <li>You need capital for other investments</li>
+                                            <li>Property management has become burdensome</li>
+                                        </ul>
+                                        <li><strong>Considerations:</strong></li>
+                                        <ul>
+                                            <li>Capital gains tax implications</li>
+                                            <li>Selling costs (agent commissions, closing costs)</li>
+                                            <li>Market timing</li>
+                                            <li>1031 exchange potential</li>
+                                        </ul>
+                                    </ul>
+                                    
+                                    <h5>Refinance and Hold</h5>
+                                    <p>Extracting equity through refinancing while maintaining ownership.</p>
+                                    <ul>
+                                        <li><strong>Best When:</strong></li>
+                                        <ul>
+                                            <li>Property has significant equity</li>
+                                            <li>Cash flow remains positive after refinancing</li>
+                                            <li>You want to access capital without selling</li>
+                                            <li>Interest rates are favorable</li>
+                                        </ul>
+                                        <li><strong>Considerations:</strong></li>
+                                        <ul>
+                                            <li>New debt service requirements</li>
+                                            <li>Refinancing costs</li>
+                                            <li>Potential cash flow reduction</li>
+                                            <li>Tax-free cash extraction</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3">
+                                    <h4>Advanced Exit Strategies</h4>
+                                    
+                                    <h5>Seller Financing</h5>
+                                    <p>Acting as the lender for the buyer of your property.</p>
+                                    <ul>
+                                        <li><strong>Best When:</strong></li>
+                                        <ul>
+                                            <li>You want ongoing income without management responsibilities</li>
+                                            <li>Conventional financing is tight</li>
+                                            <li>You can command a premium price or interest rate</li>
+                                            <li>You don't need all the equity immediately</li>
+                                        </ul>
+                                        <li><strong>Considerations:</strong></li>
+                                        <ul>
+                                            <li>Buyer qualification and down payment</li>
+                                            <li>Legal documentation and security</li>
+                                            <li>Installment sale tax treatment</li>
+                                            <li>Default risk management</li>
+                                        </ul>
+                                    </ul>
+                                    
+                                    <h5>Lease Option</h5>
+                                    <p>Leasing the property with an option for the tenant to purchase.</p>
+                                    <ul>
+                                        <li><strong>Best When:</strong></li>
+                                        <ul>
+                                            <li>Market has qualified buyers lacking immediate purchase ability</li>
+                                            <li>You want premium rent and potential sale</li>
+                                            <li>Property may need time to appreciate further</li>
+                                        </ul>
+                                        <li><strong>Considerations:</strong></li>
+                                        <ul>
+                                            <li>Option fee and rent premium structure</li>
+                                            <li>Purchase price determination</li>
+                                            <li>Option period length</li>
+                                            <li>Rent credit arrangements</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card mb-3">
+                            <h4>Legacy and Estate Planning Strategies</h4>
+                            <p>Long-term approaches that focus on wealth transfer and tax efficiency:</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>Hold Until Death (Stepped-Up Basis)</h5>
+                                    <p>Holding property until death to take advantage of stepped-up basis for heirs.</p>
+                                    <ul>
+                                        <li><strong>Tax Advantage:</strong> Heirs receive property at fair market value basis, eliminating capital gains on appreciation during your lifetime</li>
+                                        <li><strong>Best For:</strong> Highly appreciated properties with low basis</li>
+                                        <li><strong>Considerations:</strong></li>
+                                        <ul>
+                                            <li>Estate tax thresholds</li>
+                                            <li>Property management during later years</li>
+                                            <li>Cash flow needs during retirement</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h5>Gifting Strategies</h5>
+                                    <p>Gradually transferring ownership to heirs during your lifetime.</p>
+                                    <ul>
+                                        <li><strong>Methods:</strong></li>
+                                        <ul>
+                                            <li>Annual exclusion gifts</li>
+                                            <li>Fractional interest transfers</li>
+                                            <li>Family limited partnerships</li>
+                                            <li>Irrevocable trusts</li>
+                                        </ul>
+                                        <li><strong>Advantages:</strong></li>
+                                        <ul>
+                                            <li>Reduces estate size</li>
+                                            <li>Transfers future appreciation</li>
+                                            <li>Potential valuation discounts</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card bg-light p-3 mb-3">
+                            <h4>Timing Your Exit</h4>
+                            <p>Knowing when to implement your exit strategy is as important as choosing the right one:</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>Market Cycle Indicators</h5>
+                                    <ul>
+                                        <li><strong>Supply and Demand Metrics:</strong></li>
+                                        <ul>
+                                            <li>Inventory levels</li>
+                                            <li>Days on market</li>
+                                            <li>Absorption rates</li>
+                                            <li>New construction activity</li>
+                                        </ul>
+                                        <li><strong>Price Indicators:</strong></li>
+                                        <ul>
+                                            <li>Price-to-rent ratios</li>
+                                            <li>Price-to-income ratios</li>
+                                            <li>Cap rate compression</li>
+                                            <li>Year-over-year appreciation rates</li>
+                                        </ul>
+                                        <li><strong>Economic Signals:</strong></li>
+                                        <ul>
+                                            <li>Interest rate trends</li>
+                                            <li>Employment data</li>
+                                            <li>GDP growth</li>
+                                            <li>Consumer confidence</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h5>Property-Specific Considerations</h5>
+                                    <ul>
+                                        <li><strong>Physical Condition:</strong></li>
+                                        <ul>
+                                            <li>Major systems nearing end of life</li>
+                                            <li>Upcoming capital expenditure needs</li>
+                                            <li>Renovation cycle completion</li>
+                                        </ul>
+                                        <li><strong>Financial Performance:</strong></li>
+                                        <ul>
+                                            <li>Cash flow trends</li>
+                                            <li>Expense ratio changes</li>
+                                            <li>Debt service coverage ratio</li>
+                                            <li>Return metrics compared to targets</li>
+                                        </ul>
+                                        <li><strong>Opportunity Cost:</strong></li>
+                                        <ul>
+                                            <li>Better investment opportunities elsewhere</li>
+                                            <li>Portfolio rebalancing needs</li>
+                                            <li>Risk-adjusted return comparisons</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Investment Return Calculator -->
+                    <div class="module-section mb-4">
+                        <h3>7.4 Investment Return Calculator</h3>
+                        <p>Use this calculator to analyze potential returns on your real estate investments and compare different scenarios.</p>
+                        
+                        <div class="calculator">
+                            <h4 class="calculator-title">Investment Return Calculator</h4>
+                            <form id="investment-calculator" class="calculator-form">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5>Property Information</h5>
+                                        <div class="form-group">
+                                            <label for="purchase-price" class="form-label">Purchase Price ($)</label>
+                                            <input type="number" id="purchase-price" class="form-control" min="0" placeholder="Total purchase price" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="down-payment" class="form-label">Down Payment (%)</label>
+                                            <input type="number" id="down-payment" class="form-control" min="0" max="100" placeholder="Down payment percentage" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="closing-costs" class="form-label">Closing Costs ($)</label>
+                                            <input type="number" id="closing-costs" class="form-control" min="0" placeholder="Total closing costs" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="renovation-costs" class="form-label">Renovation Costs ($)</label>
+                                            <input type="number" id="renovation-costs" class="form-control" min="0" placeholder="Total renovation costs" required>
+                                        </div>
+                                        
+                                        <h5>Financing</h5>
+                                        <div class="form-group">
+                                            <label for="interest-rate" class="form-label">Interest Rate (%)</label>
+                                            <input type="number" id="interest-rate" class="form-control" min="0" step="0.01" placeholder="Annual interest rate" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="loan-term" class="form-label">Loan Term (years)</label>
+                                            <input type="number" id="loan-term" class="form-control" min="0" placeholder="Loan term in years" required>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-6">
+                                        <h5>Income & Expenses</h5>
+                                        <div class="form-group">
+                                            <label for="monthly-rent" class="form-label">Monthly Rent ($)</label>
+                                            <input type="number" id="monthly-rent" class="form-control" min="0" placeholder="Gross monthly rental income" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="vacancy-rate" class="form-label">Vacancy Rate (%)</label>
+                                            <input type="number" id="vacancy-rate" class="form-control" min="0" max="100" placeholder="Expected vacancy percentage" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="property-taxes" class="form-label">Annual Property Taxes ($)</label>
+                                            <input type="number" id="property-taxes" class="form-control" min="0" placeholder="Annual property tax amount" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="insurance" class="form-label">Annual Insurance ($)</label>
+                                            <input type="number" id="insurance" class="form-control" min="0" placeholder="Annual insurance premium" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="maintenance" class="form-label">Monthly Maintenance ($)</label>
+                                            <input type="number" id="maintenance" class="form-control" min="0" placeholder="Average monthly maintenance" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="property-management" class="form-label">Property Management (%)</label>
+                                            <input type="number" id="property-management" class="form-control" min="0" max="100" placeholder="Property management fee percentage" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="other-expenses" class="form-label">Other Monthly Expenses ($)</label>
+                                            <input type="number" id="other-expenses" class="form-control" min="0" placeholder="HOA, utilities, etc." required>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5>Appreciation & Holding Period</h5>
+                                        <div class="form-group">
+                                            <label for="appreciation-rate" class="form-label">Annual Appreciation Rate (%)</label>
+                                            <input type="number" id="appreciation-rate" class="form-control" min="0" step="0.1" placeholder="Expected annual appreciation" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="holding-period" class="form-label">Holding Period (years)</label>
+                                            <input type="number" id="holding-period" class="form-control" min="1" placeholder="Expected years of ownership" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="selling-costs" class="form-label">Selling Costs (%)</label>
+                                            <input type="number" id="selling-costs" class="form-control" min="0" max="100" placeholder="Agent commission, closing costs, etc." required>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-6">
+                                        <h5>Tax Information</h5>
+                                        <div class="form-group">
+                                            <label for="income-tax-rate" class="form-label">Income Tax Rate (%)</label>
+                                            <input type="number" id="income-tax-rate" class="form-control" min="0" max="100" placeholder="Your marginal income tax rate" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="capital-gains-rate" class="form-label">Capital Gains Tax Rate (%)</label>
+                                            <input type="number" id="capital-gains-rate" class="form-control" min="0" max="100" placeholder="Your capital gains tax rate" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Calculate Returns</button>
+                            </form>
+                            
+                            <div id="investment-result" class="calculator-result" style="display: none;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Knowledge Check -->
+                    <div class="module-section mb-4">
+                        <h3>Knowledge Check: Maximizing Returns</h3>
+                        <div class="quiz-container">
+                            <form class="quiz-form">
+                                <div class="quiz-question">
+                                    <h4>1. What does the Cap Rate measure?</h4>
+                                    <ul class="quiz-options">
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q1" value="incorrect"> The ratio of annual cash flow to total cash invested
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q1" value="correct"> The ratio of NOI to property value
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q1" value="incorrect"> The ratio of property price to gross annual rental income
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q1" value="incorrect"> The percentage of rental income used for operating expenses
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="quiz-feedback" style="display: none;"></div>
+                                </div>
+                                
+                                <div class="quiz-question">
+                                    <h4>2. According to the 1% Rule, what should the monthly rent be for a $250,000 property?</h4>
+                                    <ul class="quiz-options">
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q2" value="incorrect"> $1,000
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q2" value="incorrect"> $2,000
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q2" value="correct"> $2,500
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q2" value="incorrect"> $5,000
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="quiz-feedback" style="display: none;"></div>
+                                </div>
+                                
+                                <div class="quiz-question">
+                                    <h4>3. Which of the following is NOT typically considered a value-add strategy?</h4>
+                                    <ul class="quiz-options">
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q3" value="incorrect"> Kitchen and bathroom renovations
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q3" value="incorrect"> Reducing vacancy through better marketing
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q3" value="incorrect"> Adding additional income sources like storage rentals
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q3" value="correct"> Waiting for natural market appreciation
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="quiz-feedback" style="display: none;"></div>
+                                </div>
+                                
+                                <div class="quiz-question">
+                                    <h4>4. What is the primary advantage of the "refinance and hold" exit strategy?</h4>
+                                    <ul class="quiz-options">
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q4" value="incorrect"> Eliminating all property management responsibilities
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q4" value="correct"> Accessing equity without triggering capital gains taxes
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q4" value="incorrect"> Maximizing the sale price of the property
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q4" value="incorrect"> Transferring all risk to a new owner
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="quiz-feedback" style="display: none;"></div>
+                                </div>
+                                
+                                <div class="quiz-question">
+                                    <h4>5. Which metric accounts for the time value of money when evaluating investment returns?</h4>
+                                    <ul class="quiz-options">
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q5" value="incorrect"> Cash-on-Cash Return
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q5" value="incorrect"> Gross Rent Multiplier
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q5" value="incorrect"> Capitalization Rate
+                                            </label>
+                                        </li>
+                                        <li class="quiz-option">
+                                            <label>
+                                                <input type="radio" name="q5" value="correct"> Internal Rate of Return
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="quiz-feedback" style="display: none;"></div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary mt-3">Submit Answers</button>
+                                <div class="quiz-result mt-3" style="display: none;"></div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="module-section mb-4">
+                        <h3>Module Resources</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                    <h4>Downloadable Resources</h4>
+                                    <ul>
+                                        <li><a href="assets/pdfs/investment-metrics-cheat-sheet.pdf"><i class="fas fa-file-pdf"></i> Investment Metrics Cheat Sheet</a></li>
+                                        <li><a href="assets/pdfs/value-add-strategies-guide.pdf"><i class="fas fa-file-pdf"></i> Value-Add Strategies Guide</a></li>
+                                        <li><a href="assets/pdfs/exit-strategy-comparison.pdf"><i class="fas fa-file-pdf"></i> Exit Strategy Comparison Chart</a></li>
+                                        <li><a href="assets/pdfs/roi-calculator-spreadsheet.pdf"><i class="fas fa-file-pdf"></i> ROI Calculator Spreadsheet</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <h4>Recommended Reading</h4>
+                                    <ul>
+                                        <li>"The Book on Rental Property Investing" by Brandon Turner</li>
+                                        <li>"What Every Real Estate Investor Needs to Know About Cash Flow" by Frank Gallinelli</li>
+                                        <li>"The Book on Estimating Rehab Costs" by J Scott</li>
+                                        <li>"The Book on Flipping Houses" by J Scott</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="module-navigation">
+                        <div>
+                            <a href="module6.html" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Previous Module</a>
+                        </div>
+                        <span>Module 7 of 9</span>
+                        <div>
+                            <button class="btn btn-outline complete-module" data-module-id="module7">Mark as Complete</button>
+                            <a href="module8.html" class="btn btn-primary">Next Module <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>Mastering Real Estate Investing</h3>
+                <p>Your comprehensive guide to building wealth through real estate investments.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="forum.html">Community</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><a href="mailto:info@realestatecourse.com">info@realestatecourse.com</a></li>
+                    <li><a href="tel:+1234567890">123-456-7890</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2025 Mastering Real Estate Investing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

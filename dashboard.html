@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard for Mastering Real Estate Investing course - Track your progress and access course modules">
+    <meta name="keywords" content="real estate investing, property investment, real estate course, dashboard">
+    <title>Dashboard - Mastering Real Estate Investing</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Real Estate Investing Logo" id="logo-placeholder">
+                <h1>Mastering Real Estate Investing</h1>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <span class="sr-only">Menu</span>
+                </button>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="forum.html">Community</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="container mt-4 mb-4">
+            <div class="dashboard">
+                <div class="dashboard-sidebar">
+                    <h3>Course Navigation</h3>
+                    <ul class="dashboard-nav">
+                        <li class="dashboard-nav-item active"><a href="dashboard.html">Dashboard</a></li>
+                        <li class="dashboard-nav-item"><a href="module1.html">Module 1: Introduction</a></li>
+                        <li class="dashboard-nav-item"><a href="module2.html">Module 2: Market Research</a></li>
+                        <li class="dashboard-nav-item"><a href="module3.html">Module 3: Acquisition</a></li>
+                        <li class="dashboard-nav-item"><a href="module4.html">Module 4: Financing</a></li>
+                        <li class="dashboard-nav-item"><a href="module5.html">Module 5: Tax Benefits</a></li>
+                        <li class="dashboard-nav-item"><a href="module6.html">Module 6: Property Management</a></li>
+                        <li class="dashboard-nav-item"><a href="module7.html">Module 7: Maximizing Returns</a></li>
+                        <li class="dashboard-nav-item"><a href="module8.html">Module 8: Portfolio Building</a></li>
+                        <li class="dashboard-nav-item"><a href="module9.html">Module 9: Capstone Project</a></li>
+                        <li class="dashboard-nav-item"><a href="forum.html">Community Forum</a></li>
+                        <li class="dashboard-nav-item"><a href="resources.html">Resources</a></li>
+                        <li class="dashboard-nav-item"><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                
+                <div class="dashboard-content">
+                    <h2>Welcome to Your Dashboard</h2>
+                    <p>Track your progress, access course modules, and connect with the community.</p>
+                    
+                    <div class="card mb-3">
+                        <h3>Your Progress</h3>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 0%;"></div>
+                        </div>
+                        <p class="progress-text">0/9 modules completed (0%)</p>
+                    </div>
+                    
+                    <h3>Course Modules</h3>
+                    <div class="module-list">
+                        <div class="module-item" data-module-id="module1">
+                            <div class="module-header">
+                                <h3>Module 1: Introduction to Real Estate Investing</h3>
+                                <span><i class="fas fa-book"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Learn the fundamentals of real estate investing, including key terminology, the benefits and risks of different investment strategies, and how to set realistic goals for your real estate journey.</p>
+                                <div class="module-footer">
+                                    <a href="module1.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module1">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module2">
+                            <div class="module-header">
+                                <h3>Module 2: Market Research Fundamentals</h3>
+                                <span><i class="fas fa-search"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Discover how to analyze real estate markets, identify emerging trends, and use data-driven tools to find locations with the highest potential for returns.</p>
+                                <div class="module-footer">
+                                    <a href="module2.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module2">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module3">
+                            <div class="module-header">
+                                <h3>Module 3: Acquisition Strategies</h3>
+                                <span><i class="fas fa-handshake"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Learn proven methods for finding and evaluating properties, negotiating favorable deals, and financing your investments creatively.</p>
+                                <div class="module-footer">
+                                    <a href="module3.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module3">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module4">
+                            <div class="module-header">
+                                <h3>Module 4: Financing Your Investments</h3>
+                                <span><i class="fas fa-money-bill-wave"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Explore various financing options, understand mortgage terms and rates, and learn how to leverage other people's money to grow your portfolio.</p>
+                                <div class="module-footer">
+                                    <a href="module4.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module4">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module5">
+                            <div class="module-header">
+                                <h3>Module 5: Tax Benefits and Legal Considerations</h3>
+                                <span><i class="fas fa-balance-scale"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Understand the tax advantages of real estate investing, learn how to structure your investments for maximum protection, and avoid common legal pitfalls.</p>
+                                <div class="module-footer">
+                                    <a href="module5.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module5">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module6">
+                            <div class="module-header">
+                                <h3>Module 6: Property Management Essentials</h3>
+                                <span><i class="fas fa-home"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Master the art of managing tenants, maintaining properties, and deciding when to hire professional property managers to maximize your returns.</p>
+                                <div class="module-footer">
+                                    <a href="module6.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module6">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module7">
+                            <div class="module-header">
+                                <h3>Module 7: Maximizing Returns</h3>
+                                <span><i class="fas fa-chart-pie"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Learn strategies to increase your property values, boost rental income, and implement effective exit strategies to maximize your overall returns.</p>
+                                <div class="module-footer">
+                                    <a href="module7.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module7">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module8">
+                            <div class="module-header">
+                                <h3>Module 8: Building Your Real Estate Portfolio</h3>
+                                <span><i class="fas fa-building"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Discover how to scale your investments, diversify across markets and property types, and build long-term wealth through strategic portfolio management.</p>
+                                <div class="module-footer">
+                                    <a href="module8.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module8">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-item" data-module-id="module9">
+                            <div class="module-header">
+                                <h3>Module 9: Capstone Project</h3>
+                                <span><i class="fas fa-graduation-cap"></i></span>
+                            </div>
+                            <div class="module-content">
+                                <p>Apply everything you've learned in a comprehensive capstone project where you'll analyze a real-world investment opportunity with guidance from our experts.</p>
+                                <div class="module-footer">
+                                    <a href="module9.html" class="btn btn-primary">Start Module</a>
+                                    <button class="btn btn-outline complete-module" data-module-id="module9">Mark as Complete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>Mastering Real Estate Investing</h3>
+                <p>Your comprehensive guide to building wealth through real estate investments.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="forum.html">Community</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><a href="mailto:info@realestatecourse.com">info@realestatecourse.com</a></li>
+                    <li><a href="tel:+1234567890">123-456-7890</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2025 Mastering Real Estate Investing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
